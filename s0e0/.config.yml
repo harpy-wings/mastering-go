@@ -1,0 +1,20 @@
+app:
+  name: s0e0
+  environment: dev
+
+gc:
+  project_id: s0e0-43210
+
+http:
+  port: 8080
+
+grpc:
+  port: 50051
+
+redis:
+  url:
+    - redis://localhost:6379
+    # - redis://localhost:6380
+  username:
+  password:
+  db: 0
